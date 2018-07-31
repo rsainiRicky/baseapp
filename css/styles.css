@@ -1,0 +1,42 @@
+body{
+    display:flex;
+    flex-direction: column;
+    max-height: 99vh;   
+    color:white;
+}
+header{
+    padding:50px;
+}
+
+footer{
+    padding:40px;
+}
+.loginContainer{
+    height:65vh;
+}
+.backbg{
+    background:url(../images/bg.jpg);
+    position:fixed;
+    padding:0px;
+    margin:0px;
+    background-size: cover;
+    height:100vh;
+    width:100vw;
+    filter:opacity(0.3);
+    
+    box-shadow: 0 0 200px rgba(0,0,0,0.9) inset;
+    z-index:-1;
+}
+
+.loginCard{
+    margin:1rem auto;
+    padding:20px;
+    color:black;
+    
+}
+.card-text{
+    color:#eee;
+}
+.card-title{
+    font-size:1rem !important;
+}
